@@ -1,45 +1,41 @@
 # Introduction to IRB
 
-## Objectives
+## Learning Goals
 
 1. Describe IRB and why it's useful when programming.
 2. Distinguish IRB from your terminal and other files.
 3. Access and exit IRB via your terminal.
 4. Execute commands in IRB.
 
-<iframe width="960" height="720" src="https://www.youtube.com/embed/WWh1uxqQI48?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-[MP4](http://learn-co-videos.s3.amazonaws.com/ruby/intro-to-irb.mp4)
-
 ## What is IRB?
 
-IRB stands for "Interactive Ruby." It's a Ruby shell or REPL. REPL stands for
-read–eval–print loop. It is a simple, interactive computer programming
-environment that takes user inputs (such as, in our case, snippets of Ruby
-code), evaluates them, and returns the result to the user. IRB is run by your
-computer's terminal. You can think of it as your Ruby playground or execution
-environment. You can open it up, insert code and execute it to see that code's
+IRB stands for "Interactive Ruby." It's a Ruby shell, also known as a REPL. REPL
+stands for _Read–Evaluate–Print Loop_. It is a simple, interactive computer
+programming environment that takes user inputs (such as snippets of Ruby code),
+evaluates them, and returns the result to the user. IRB is run by your
+computer's terminal. We can think of it as your Ruby playground or execution
+environment. We can open it up, insert code and execute it to see that code's
 return value.
 
 ## What _isn't_ IRB?
 
-IRB is not a file where you save your work. Any coding you do in the IRB console
-in your terminal will not get saved anywhere. It only exists temporarily. IRB is
-for testing, playing, manipulating your code so that you understand it better
-and solve problems with it.
+IRB is not a file where work can be saved. Any coding done in the IRB console in
+the terminal will not get saved _anywhere_. It only exists temporarily. IRB is
+for testing, playing, and manipulating our code so that we can understand it
+better and solve problems with it.
 
-## How do you use it?
+## How Do You Use It?
 
-IRB allows you to execute ruby in the terminal and you're going to get
-comfortable using it to test and better understand your Ruby code. To access
-IRB, just type `irb` in the terminal. IRB allows you to do anything you can do
-in a Ruby file. For instance, you can do math, get the time by typing
-`Time.now`, or print text to the screen.
+IRB allows us to execute ruby in the terminal. We can use IRB to test and
+better understand our Ruby code. To access IRB, just type `irb` in the
+terminal. IRB allows us to do anything we can do in a Ruby file. For instance,
+we can do math, get the time by typing `Time.now`, or print text to the screen.
 
 ## Instructions
 
-1. Open up your terminal. (If you do not have a terminal on your computer you
-   can use [repl.it][repl])
+1. Open up your terminal. If you do not have a terminal on your computer, you
+can use Learn.co's in-browser IDE by clicking 'Sandbox'. The terminal will be
+available at the bottom of the IDE.
 
 2. Type `irb` and hit `return`
 
@@ -53,6 +49,17 @@ in a Ruby file. For instance, you can do math, get the time by typing
 
 4. To leave IRB, type the `exit` command - this will get you back to your
    command line.
+
+## Conclusion
+
+As we get into more complex code, sometimes we need a quick scratch pad to work
+in to test a bit of code out. IRB is great for this purpose. We can use it to
+learn about unfamiliar keywords, calculate equations, and, in general, become
+more comfortable writing in Ruby.
+
+## Resources
+
+[Intro to IRB Video](http://learn-co-videos.s3.amazonaws.com/ruby/intro-to-irb.mp4)
 
 [repl]: https://repl.it/
 
