@@ -2,12 +2,12 @@
 
 ## Learning Goals
 
-1. Describe IRB and why it's useful when programming.
-2. Distinguish IRB from your terminal and other files.
-3. Access and exit IRB via your terminal.
-4. Execute commands in IRB.
+1. Describe IRB and why it's useful when programming
+2. Distinguish IRB from the terminal and other files
+3. Access and exit IRB via the terminal
+4. Execute commands in IRB
 
-## What is IRB?
+## Describe IRB and Why It's Useful When Programming
 
 IRB stands for "Interactive Ruby." It's a Ruby shell, also known as a REPL. REPL
 stands for _Read–Evaluate–Print Loop_. It is a simple, interactive computer
@@ -17,21 +17,21 @@ computer's terminal. We can think of it as your Ruby playground or execution
 environment. We can open it up, insert code and execute it to see that code's
 return value.
 
-## What _isn't_ IRB?
+## Distinguish IRB from the Terminal and Other Files
 
 IRB is not a file where work can be saved. Any coding done in the IRB console in
 the terminal will not get saved _anywhere_. It only exists temporarily. IRB is
 for testing, playing, and manipulating our code so that we can understand it
 better and solve problems with it.
 
-## How Do You Use It?
+## Identify How to Sccess and Exit IRB via the Terminal
 
 IRB allows us to execute ruby in the terminal. We can use IRB to test and
 better understand our Ruby code. To access IRB, just type `irb` in the
 terminal. IRB allows us to do anything we can do in a Ruby file. For instance,
 we can do math, get the time by typing `Time.now`, or print text to the screen.
 
-## Instructions
+## Execute Commands in IRB
 
 1. Open up your terminal. If you do not have a terminal on your computer, you
 can use Learn.co's in-browser IDE by clicking 'Sandbox'. The terminal will be
