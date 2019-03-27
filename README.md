@@ -2,10 +2,10 @@
 
 ## Learning Goals
 
-1. Describe IRB and why it's useful when programming.
-2. Distinguish IRB from your terminal and other files.
-3. Access and exit IRB via your terminal.
-4. Execute commands in IRB.
+1. Describe IRB and why it's useful when programming
+2. Distinguish IRB from your terminal and other files
+3. Access and exit IRB via your terminal
+4. Execute commands in IRB
 
 ## What is IRB?
 
